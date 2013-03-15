@@ -1,0 +1,93 @@
+<html>
+<head></head>
+<center>
+<br>
+</br>
+<br>
+</br>
+
+
+
+<script type="text/javascript">
+<!--
+var image1=new Image()
+image1.src="a.png"
+var image2=new Image()
+image2.src="b.png"
+var image3=new Image()
+image3.src="c.png"
+var image4=new Image()
+image4.src="d.png"
+var image5=new Image()
+image5.src="e.png"
+var image6=new Image()
+image6.src="f.png"
+var image7=new Image()
+image7.src="g.png"
+var image8=new Image()
+image8.src="h.png"
+var image9=new Image()
+image9.src="i.png"
+var image10=new Image()
+image10.src="j.png"
+var image11=new Image()
+image11.src="k.png"
+var image12=new Image()
+image12.src="l.png"
+var image13=new Image()
+image13.src="m.png"
+var image14=new Image()
+image14.src="n.png"
+var image15=new Image()
+image15.src="o.png"
+var image16=new Image()
+image16.src="p.png"
+var image17=new Image()
+image17.src="q.png"
+var image18=new Image()
+image18.src="r.png"
+var image19=new Image()
+image19.src="s.png"
+var image20=new Image()
+image20.src="t.png"
+var image21=new Image()
+image21.src="u.png"
+var image22=new Image()
+image22.src="v.png"
+var image23=new Image()
+image23.src="w.png"
+var image24=new Image()
+image24.src="x.png"
+var image25=new Image()
+image25.src="y.png"
+var image26=new Image()
+image26.src="z.png"
+
+
+</script>
+
+<body>
+<img src="a.png" name="slide" width="60" height="60" />
+<script>
+<!--
+//variable that will increment through the images
+var step=1
+function slideit(){
+//if browser does not support the image object, exit.
+if (!document.images)
+return
+document.images.slide.src=eval("image"+step+".src")
+if (step<26)
+step++
+else
+step=1
+//call function "slideit()" every 1.2 seconds
+setTimeout("slideit()",1000)
+}
+slideit()
+//-->
+</script>
+<center> <mark> THE ALPHABET </mark> </center>
+</center>
+</body>
+</html>

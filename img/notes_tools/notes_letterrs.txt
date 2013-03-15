@@ -1,0 +1,7 @@
+canvas size for letters 60x60 pixels
+select / cut
+new 60 x 60 px
+paste 
+flatten
+export
+a.png

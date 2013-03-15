@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<LINK REL="SHORTCUT ICON" HREF="favicon.ico"/>
+<br><br><br>
+<title> Spelling Bee </title>
+<style type="text/css">
+#div1 {width:1230px;height:50px;padding:1px;border:10px solid red;}
+</style>
+<script>
+function allowDrop(ev)
+{
+ev.preventDefault();
+}
+
+function drag(ev)
+{
+ev.dataTransfer.setData("Text",ev.target.id);
+}
+
+function drop(ev)
+{
+ev.preventDefault();
+var data=ev.dataTransfer.getData("Text");
+ev.target.appendChild(document.getElementById(data));
+}
+</script>
+</head>
+<body>
+<center>
+<img src="bee.png" style="max-width:100%;" 
+<center>
+
+<body style="background-color:white">
+
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<br>
+<img id="drag1" src="a.png" draggable="true" ondragstart="drag(event)" width="45" height="45">
+
+<img id="drag2" src="b.png" draggable="true" ondragstart="drag(event)" width="45" height="45">
+
+<img id="drag3" src="c.png" draggable="true" ondragstart="drag(event)" width="45" height="45">
+
+<img id="drag4" src="d.png" draggable="true" ondragstart="drag(event)" width="45" height="45">
+
+<img id="drag5" src="e.png" draggable="true" ondragstart="drag(event)" width="45" height="45">
+
+<img id="drag6" src="f.png" draggable="true" ondragstart="drag(event)" width="45" height="45">
+
+<img id="drag7" src="g.png" draggable="true" ondragstart="drag(event)" width="45" height="45">
+
+<img id="drag8" src="h.png" draggable="true" ondragstart="drag(event)" width="45" height="45">
+
+<img id="drag9" src="i.png" draggable="true" ondragstart="drag(event)" width="45" height="45">
+
+<img id="drag10" src="j.png" draggable="true" ondragstart="drag(event)" width="45" height="45">
+
+<img id="drag11" src="k.png" draggable="true" ondragstart="drag(event)" width="45" height="45">
+
+<img id="drag12" src="l.png" draggable="true" ondragstart="drag(event)" width="45" height="45">
+
+<img id="drag13" src="m.png" draggable="true" ondragstart="drag(event)" width="45" height="45">
+
+<img id="drag14" src="n.png" draggable="true" ondragstart="drag(event)" width="45" height="45">
+
+<img id="drag15" src="o.png" draggable="true" ondragstart="drag(event)" width="45" height="45">
+
+<img id="drag16" src="p.png" draggable="true" ondragstart="drag(event)" width="45" height="45">
+
+<img id="drag17" src="q.png" draggable="true" ondragstart="drag(event)" width="45" height="45">
+
+<img id="drag18" src="r.png" draggable="true" ondragstart="drag(event)" width="45" height="45">
+
+<img id="drag19" src="s.png" draggable="true" ondragstart="drag(event)" width="45" height="45">
+
+<img id="drag20" src="t.png" draggable="true" ondragstart="drag(event)" width="45" height="45">
+
+<img id="drag21" src="u.png" draggable="true" ondragstart="drag(event)" width="45" height="45">
+
+<img id="drag22" src="v.png" draggable="true" ondragstart="drag(event)" width="45" height="45">
+
+<img id="drag23" src="w.png" draggable="true" ondragstart="drag(event)" width="45" height="45">
+
+<img id="drag24" src="x.png" draggable="true" ondragstart="drag(event)" width="45" height="45">
+
+<img id="drag25" src="y.png" draggable="true" ondragstart="drag(event)" width="45" height="45">
+
+<img id="drag26" src="z.png" draggable="true" ondragstart="drag(event)" width="45" height="45">
+
+<A HREF="javascript:history.go(0)">
+<br>
+<br>
+
+
+
+<FORM>
+<INPUT TYPE="button" onClick="history.go(0)" VALUE="Refresh">
+</FORM>
+</center>
+
+</body>
+</html>

@@ -27,12 +27,25 @@ ev.target.appendChild(document.getElementById(data));
 </script>
 </head>
 <body>
+
+
+
+
+
+
 <center>
 <img src="bee.png" style="max-width:100%;" 
 <center>
+<br> 
 
 <body style="background-color:white">
 
+<embed src="speak.wav"
+       autostart="true"
+       hidden="true"
+       loop="false">
+<noembed><bgsound src="speak.wav" loop="1"></noembed>
+</embed>
 
 <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 <br>
@@ -98,6 +111,12 @@ ev.target.appendChild(document.getElementById(data));
 <INPUT TYPE="button" onClick="history.go(0)" VALUE="Refresh">
 </FORM>
 </center>
+<center>
+<footer>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<img src="grass2.png" width="1230" height="50" alt="name or keyword for image" />
 
+</center>
+</footer>
 </body>
 </html>
